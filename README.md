@@ -22,11 +22,11 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 * 3 relational tables: users, posts, votes
 
-###### GitHub demo.cdr.dev Ruby-2-6-6 image image with coder.yaml ( environment-as-code template )
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo.cdr.dev/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
+###### GitHub demo-2.cdr.dev Ruby-2-6-6 image image with coder.yaml ( environment-as-code template )
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
 
-##### GitHub mark.demo.coder.com Ruby-2-6-6 image with coder.yaml ( environment-as-code template )
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.demo.coder.com/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
+##### GitHub mark.coder.com Ruby-2-6-6 image with coder.yaml ( environment-as-code template )
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
 
 ###### Notes / To run this app after cloning, we recommend:
 
@@ -55,6 +55,10 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
  * API call #2 to demo in a browser: http://(your app host name)/api/get_posts.json?term=
 
  * start debugger command: rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 1234 -- bin/rails s
+
+ * create a launch.json in VS Code that listens for r-debug
+
+ * make a breakpoint and start the debugger in VS Code, go to the app's route in a browser where the breakpoint is set, and it should break
 
 
 
