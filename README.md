@@ -4,9 +4,9 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 ###### Languages, frameworks used:
 
-* Ruby 2.6.6
+* Ruby 2.7.2
 
-* Ruby on Rails 5.2.2
+* Ruby on Rails 7.0.2.2 (upgraded 02-26-22)
 
 * SQLite3
 
@@ -22,15 +22,19 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 * 3 relational tables: users, posts, votes
 
-###### GitHub demo-2.cdr.dev Ruby-2-6-6 image image with coder.yaml ( environment-as-code template )
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
 
-##### GitHub mark.coder.com Ruby-2-6-6 image with coder.yaml ( environment-as-code template )
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/wac/build?project_oauth_service=github&template_oauth_service=github&project_url=git@github.com:mtm20176/rubyonrails.git&template_url=https://github.com/mtm20176/ruby_wac&template_ref=master)
+###### clean.demo.coder.com
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/workspaces/git?org=default&image=621a7c0f-d1757f7e66fb59934cc29639&tag=latest&service=github&repo=git@github.com:mtm20176/rubyonrails.git)
+
+###### mark.coder.com
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/workspaces/git?org=default&image=621a8375-cf8295cf67cf9216ddb39842&tag=latest&service=github&repo=git@github.com:mtm20176/rubyonrails.git)
+
+###### demo-2.cdr.dev
+[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/workspaces/git?org=default&image=621a83cc-543f20fa6b646765a504a5b0&tag=latest&service=gitlab&repo=git@github.com:mtm20176/rubyonrails.git)
 
 ###### Notes / To run this app after cloning, we recommend:
 
-* use an image with Ruby 2.6.6
+* use an image with Ruby 2.7.2
 
 * install bundler gem then bundle install the gems specified in the gem file
 
