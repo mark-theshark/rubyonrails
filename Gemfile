@@ -52,7 +52,8 @@ gem 'devise'
 
 gem 'will_paginate'
 
-gem 'acts_as_votable', '~> 0.12.0'
+#gem 'acts_as_votable', '~> 0.12.0'
+gem 'acts_as_votable'
 
 gem 'seed_dump'
 

@@ -208,8 +208,8 @@ class PostsController < ApplicationController
 				@posts = @posts.order("posts.cached_votes_total desc, posts.created_at desc")
 				@sortname = "(sorted by most votes)"						
 			else
-				@posts = @posts.order("posts.created_at desc")
-				#@posts = @posts.order("posts.cached_votes_total desc, posts.created_at desc")
+				#@posts = @posts.order("posts.created_at desc")
+				@posts = @posts.order("posts.cached_votes_total desc, posts.created_at desc")
 				@sort = "votes"
 				@sortname = "(sorted by most recent)"
 			end
