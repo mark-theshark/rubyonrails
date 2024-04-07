@@ -6,7 +6,7 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 * Ruby 3.2.3
 
-* Ruby on Rails 7.3.2.2 (upgraded & tested on 2024-04-07)
+* Ruby on Rails 7.1.3.2 (upgraded & tested on 2024-04-07)
 
 * SQLite3
 
