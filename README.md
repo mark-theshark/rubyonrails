@@ -4,7 +4,7 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 ###### Languages, frameworks used:
 
-* Ruby 2.7.2
+* Ruby 3.2.3
 
 * Ruby on Rails 7.0.2.2 (upgraded 02-26-22)
 
@@ -22,19 +22,9 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 * 3 relational tables: users, posts, votes
 
-
-###### clean.demo.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://clean.demo.coder.com/workspaces/git?org=default&image=621a7c0f-d1757f7e66fb59934cc29639&tag=latest&service=github&repo=git@github.com:mtm20176/rubyonrails.git)
-
-###### mark.coder.com
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://mark.coder.com/workspaces/git?org=default&image=621a8375-cf8295cf67cf9216ddb39842&tag=latest&service=github&repo=git@github.com:mtm20176/rubyonrails.git)
-
-###### demo-2.cdr.dev
-[![Open in Coder](https://cdn.coder.com/embed-button.svg)](https://demo-2.cdr.dev/workspaces/git?org=default&image=621a83cc-543f20fa6b646765a504a5b0&tag=latest&service=gitlab&repo=git@github.com:mtm20176/rubyonrails.git)
-
 ###### Notes / To run this app after cloning, we recommend:
 
-* use an image with Ruby 2.7.2
+* use an image with Ruby 3.2.3
 
 * install bundler gem then bundle install the gems specified in the gem file
 
@@ -57,6 +47,8 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
  * API call #1 to demo in a browser: http://(your app host name)/api/get_posts_count.json
 
  * API call #2 to demo in a browser: http://(your app host name)/api/get_posts.json?term=
+
+###### DISABLED debugging gems for now - bundling failed
 
  * start debugger command: rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 1234 -- bin/rails s
 
