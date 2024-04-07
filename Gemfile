@@ -12,7 +12,7 @@ MTM 022622 upgrade to Rails 7.0.2.2
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '3.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.0.2.2'
@@ -58,8 +58,8 @@ gem 'acts_as_votable'
 gem 'seed_dump'
 
 # for rails debugging in VS Code
-gem "ruby-debug-ide"
-gem "debase"
+# gem "ruby-debug-ide"
+# gem "debase"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
