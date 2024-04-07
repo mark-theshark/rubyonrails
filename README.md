@@ -6,7 +6,7 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 * Ruby 3.2.3
 
-* Ruby on Rails 7.0.2.2 (upgraded 02-26-22)
+* Ruby on Rails 7.3.2.2 (upgraded & tested on 2024-04-07)
 
 * SQLite3
 
@@ -24,13 +24,13 @@ This Ruby on Rails "RoR" application lets people in an organization to give feed
 
 ###### Notes / To run this app after cloning, we recommend:
 
-* use an image with Ruby 3.2.3
+* use an image or `rbenv` with with Ruby 3.2.3
 
 * install bundler gem then bundle install the gems specified in the gem file
 
 * install the Ruby gems ( they are not in my git to save space ): bundle install
 
- ( the following 2 steps may be needed if you get database errors when launching the rails app )
+ (the following 2 steps may be needed if you get database errors when launching the rails app)
 
 * run the database migrations: rails db:migrate RAILS_ENV=development
 
