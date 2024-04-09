@@ -3,7 +3,7 @@
 Copyright (C) Mark Milligan - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
-Written by Mark Milligan <markmilligan@me.com>, 2019
+Written by Mark Milligan <mtm20176@gmail.com>, 2024
 
 =end
 

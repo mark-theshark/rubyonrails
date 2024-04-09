@@ -3,9 +3,10 @@
 Copyright (C) Mark Milligan - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
-Written by Mark Milligan <markmilligan@me.com>, 2019
+Written by Mark Milligan <mtm20176@gmail.com>, 2024
 
-MTM 022622 upgrade to Rails 7.0.2.2
+2024-04-06 upgarde to Ruby 3.2.3, Rails 7.1.3.2
+2022-02-26 upgrade to Rails 7.0.2.2
 
 =end
 

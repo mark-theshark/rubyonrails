@@ -3,7 +3,7 @@
 Copyright (C) Mark Milligan - All Rights Reserved
 Unauthorized copying of this file, via any medium is strictly prohibited
 Proprietary and confidential
-Written by Mark Milligan <markmilligan@me.com>, 2019
+Written by Mark Milligan <mtm20176@gmail.com>, 2024
 
 <% end %>
 
@@ -20,8 +20,8 @@ Written by Mark Milligan <markmilligan@me.com>, 2019
 
 <h4><%= link_to "<span class=\"oi oi-home\" aria-hidden=\"true\"></span>".html_safe, posts_path, :title=>"Show most voted posts"%> Hello World! This is the Survey and Suggestion Channel</h4>
 <p><strong>Important:</strong>  Keep posts professional, positive, and specific. ✌️</p>
-<p><span class="text-danger font-weight-bold">*</span> means HR or an administrator has commented. Click post to review.</p>
-<p>( filter/sort by 
+<p><span class="text-danger font-weight-bold">*</span> means HR or an administrator has created a Resolution. Click post to review.</p>
+<p>(filter/sort by 
 
 <%= link_to "Most Votes", posts_path(sort: "votes"), :title=>"Sort by most Upvotes" %>,
 
@@ -31,9 +31,7 @@ Written by Mark Milligan <markmilligan@me.com>, 2019
 
 <%= link_to "Resolved", posts_path(sort: "resolved"), :title=>"Filter by Resolved Posts" %>,
 
-<%= link_to "Category", posts_path(sort: "product"), :title=>"Sort by category" %>
-
-)
+<%= link_to "Category", posts_path(sort: "product"), :title=>"Sort by category" %>)
 
 <% if false %>
    OR <%= link_to "User", posts_path(sort: "email"), :title=>"Sort by user creating the feedback (A-Z)"  %>) 
